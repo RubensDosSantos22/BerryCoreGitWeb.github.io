@@ -1,393 +1,139 @@
 <!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, maximum-scale=1">
-<title>Unique</title>
-<link rel="icon" href="favicon.png" type="image/png">
-<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-<link href="css/style.css" rel="stylesheet" type="text/css"> 
-<link href="css/font-awesome.css" rel="stylesheet" type="text/css"> 
-<link href="css/animate.css" rel="stylesheet" type="text/css">
- 
-<!--[if lt IE 9]>
-    <script src="js/respond-1.1.0.min.js"></script>
-    <script src="js/html5shiv.js"></script>
-    <script src="js/html5element.js"></script>
-<![endif]-->
- 
-</head>
-<body>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/4882c5c580.js" crossorigin="anonymous"></script>
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
 
-<!--Header_section-->
-<header id="header_wrapper">
-  <div class="container">
-    <div class="header_box">
-      <div class="logo"><a href="#"><img src="img/logo.png" alt="logo"></a></div>
-	  <nav class="navbar navbar-inverse" role="navigation">
-      <div class="navbar-header">
-        <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-        </div>
-	    <div id="main-nav" class="collapse navbar-collapse navStyle">
-			<ul class="nav navbar-nav" id="mainNav">
-			  <li class="active"><a href="#hero_section" class="scroll-link">Home</a></li>
-			  <li><a href="#aboutUs" class="scroll-link">Download</a></li>
-			  <!--<li><a href="#service" class="scroll-link">Services</a></li>-->
-			  <li><a href="#Portfolio" class="scroll-link">Potencial</a></li>
-			  <!--<li><a href="#clients" class="scroll-link">Clients</a></li>
-			  <li><a href="#team" class="scroll-link">Team</a></li>-->
-			</ul>
+
+    <nav class="navbar bg-body-tertiary navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="img/CasalGestor.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top"> Casal Gestor
+        </a>
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a class="nav-link" href="#scrollspyHeading1">First</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#scrollspyHeading2">Second</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#scrollspyHeading3">Third</a></li>
+              <li><a class="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
+            </ul>
+          </li>
+        </ul>
       </div>
-	 </nav>
+    </nav>    
+
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active top_left_cont zoomIn wow animated" style="height: 600px">
+          <img src="img/Slide1.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block text-start">
+            <h2>BAIXE O CASAL GESTOR</h2>
+            <p>Dê o primeiro passo para a sua nova experiência.</p>
+            <a class="btn btn-outline-light" role="button" href="#scrollspyHeading1">Download <i class="fa-solid fa-download"></i></a>
+          </div>
+        </div>
+        <div class="carousel-item top_left_cont zoomIn wow animated">
+          <img src="img/Slide2.png" class="d-block w-100" alt="..." style="height: 600px">
+          <div class="carousel-caption d-none d-md-block text-start">
+            <h2>DESIGN SIMPLES E INTUITIVO</h2>
+            <p>O design do sistema é todo voltado à simplicidade, para ser de fácil compreensão.</p>
+          </div>
+        </div>
+        <div class="carousel-item top_left_cont zoomIn wow animated">
+          <img src="img/Slide3.png" class="d-block w-100" alt="..." style="height: 600px">
+          <div class="carousel-caption d-none d-md-block text-start text-body-secondary">
+            <h2>ATALHOS E BOTÕES BEM VISUAIS</h2>
+            <p>Todos os botões possuem uma proporção bem legível, </p>
+            <p>assim como cada um possui seu atalho no teclado.</p>
+          </div>
+        </div>
+        <div class="carousel-item top_left_cont zoomIn wow animated">
+          <img src="img/Slide4.png" class="d-block w-100" alt="..." style="height: 600px">
+          <div class="carousel-caption d-none d-md-block text-center text-body-secondary">
+            <h2>PESQUISA DINÂMICA E SIMPLIFICADA</h2>
+            <p>Escolha seu filtro, seu período, e terá tudo no mesmo momento, assim como um resumo daquilo que já passou e que aidna está por vir.</p>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-</header>
-<!--Header_section--> 
 
-<!--Hero_Section-->
-<section id="hero_section" class="top_cont_outer">
-  <div class="hero_wrapper">
-    <div class="container">
-      <img src="img/AzulDasNeves.jpg" class="bannerImg zoomIn wow animated" alt="" style="width: 100%" />
-      <div class="hero_section">        
-        <div class="row">        
-          <div class="col-lg-5 col-sm-7">
-            <div class="top_left_cont zoomIn wow animated"> 
-              <h2><strong>A sua melhor escolha para gestão das contas de casa</strong></h2>
-              <p>Simplicidade é tudo. Em nosso sistema, tudo é simples e quase é desnecesário o uso do mouse. Faça o download e descubra o nosso potencial.</p>
-              <a href="#aboutUs" class="read_more2">Download</a> </div>
+
+    <section id="scrollspyHeading1"><!--Aboutus-->
+      <div class="inner_wrapper">
+        <div class="container">
+          <h2 class="text-center">DOWNLOAD</h2>
+          <hr>
+          <div class="inner_section">
+        <div class="row">
+            <div class=" col-lg-4 col-md-4 col-sm-4 col-xs-12 pull-right"><img src="img/about-img.jpg" class="img-circle delay-03s animated wow zoomIn" alt=""></div>
+              <div class=" col-lg-7 col-md-7 col-sm-7 col-xs-12 pull-left">
+                <div class=" delay-01s animated fadeInDown wow animated">
+            <h3>O casal gestor é uma opção simples de gestão do dia a dia</h3><br/> 
+                  <p>O sistema casal gestor conta com uma forma de lançamento intuitiva e rápida, onde por meio do teclado, você exetuta a maioria das açoões para se operar através dele. Contamos com os lançamentos de contas a pagar e a receber e na consulta, já possuímos um balanço entre as suas contas pagas/a pagar e recebidas/a receber dando a você um acesso rápido às informações necessárias sempre que você abre ambas as telas.</p> <br/>
+                  <p>Acompanhado dessa proposta inicial, são previstas atualizações contantes, para tornar cada vez mais detalhado, enquanto é simplificado o modo de lançamento de nossa aplicação, sempre corrigindo possíveis Bugs e trazendo informações de forma rápida, sempre colaborando com a correrria do dia a dia, sem te deixar perder o controle do que você gasta ou precisa gastar no mês, te dando uma aplicação que irá de tirar essa grande dor de cabeça.</p>
+              </div>
+              <div class="card">
+                <div class="card-header">
+                  Download Windows
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Escolha a arquitetura que deseja baixar o sistema</h5>
+                  <a href="https://github.com/RubensDosSantos22/CasalGestorReleases_x32/archive/refs/tags/CasalGestor32Bits.zip" class="btn btn-outline-primary"><i class="fa-brands fa-windows"></i> x32</a>
+                  <a href="https://github.com/RubensDosSantos22/CasalGestorReleases_x64/archive/refs/tags/CasalGestor_x64.zip" class="btn btn-outline-primary"><i class="fa-brands fa-windows"></i> x64</a>
+                </div>
+              </div>       
+           </div>
+              
+            </div>
+          
+            
           </div>
-          <div>			
-		  </div>
         </div>
-      </div>
+        <hr> 
+        </div>        
+      </section>
+
+
+
+
+  <!-- Footer -->
+  <footer
+          class="text-center text-lg-start text-white"
+          style="background-color: #3e4551"
+          >
+
+    <!-- Copyright -->
+    <div
+         class="text-center p-3"
+         style="background-color: rgba(0, 0, 0, 0.2)"
+         >
+      © 2020 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/"
+         >MDBootstrap.com</a
+        >
     </div>
-  </div>
-</section>
-<!--Hero_Section--> 
-
-<section id="aboutUs"><!--Aboutus-->
-<div class="inner_wrapper">
-  <div class="container">    
-    <h2>Faça o download do Casal Gestor</h2>
-    <div class="inner_section">
-	<div class="row">
-      <div class=" col-lg-4 col-md-4 col-sm-4 col-xs-12 pull-right"><img src="img/CasalGEstor.png" class="img-circle delay-03s animated wow zoomIn" alt=""></div>
-      	<div class=" col-lg-7 col-md-7 col-sm-7 col-xs-12 pull-left">
-        	<div class=" delay-01s animated fadeInDown wow animated">
-			<h3>O casal gestor é uma opção simples de gestão do dia a dia</h3><br/> 
-            <p>O sistema casal gestor conta com uma forma de lançamento intuitiva e rápida, onde por meio do teclado, você exetuta a maioria das açoões para se operar através dele. Contamos com os lançamentos de contas a pagar e a receber e na consulta, já possuímos um balanço entre as suas contas pagas/a pagar e recebidas/a receber dando a você um acesso rápido às informações necessárias sempre que você abre ambas as telas.</p> <br/>
-            <p>Acompanhado dessa proposta inicial, são previstas atualizações contantes, para tornar cada vez mais detalhado, enquanto é simplificado o modo de lançamento de nossa aplicação, sempre corrigindo possíveis Bugs e trazendo informações de forma rápida, sempre colaborando com a correrria do dia a dia, sem te deixar perder o controle do que você gasta ou precisa gastar no mês, te dando uma aplicação que irá de tirar essa grande dor de cabeça.</p>
-</div>
-<div class="work_bottom"> <a href="https://github.com/RubensDosSantos22/CasalGestorReleases_x32/archive/refs/tags/CasalGestor32Bits.zip" class="contact_btn">Download x32</a></div>       
-<div class="work_bottom"> <a href="#contact" class="contact_btn">Download x64</a></div>      
-	   </div>
-      	
-      </div>
-	  
-      
-    </div>
-  </div> 
-  </div>
-</section>
-<!--Aboutus--> 
-
-
-<!--Service-->
-<section  id="service">
-  <div class="container">
-    <!--<h2>Services</h2>
-    <div class="service_wrapper">
-      <div class="row">
-        <div class="col-lg-4">
-          <div class="service_block">
-            <div class="service_icon delay-03s animated wow  zoomIn"> <span><i class="fa fa-android"></i></span> </div>
-            <h3 class="animated fadeInUp wow">Android</h3>
-            <p class="animated fadeInDown wow">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
-          </div>
-        </div>
-        <div class="col-lg-4 borderLeft">			
-          <div class="service_block">
-            <div class="service_icon icon2  delay-03s animated wow zoomIn"> <span><i class="fa fa-apple"></i></span> </div>
-            <h3 class="animated fadeInUp wow">Android</h3>
-            <p class="animated fadeInDown wow">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
-          </div>
-        </div>
-        <div class="col-lg-4 borderLeft">
-          <div class="service_block">
-            <div class="service_icon icon3  delay-03s animated wow zoomIn"> <span><i class="fa fa-html5"></i></span> </div>
-            <h3 class="animated fadeInUp wow">Android</h3>
-            <p class="animated fadeInDown wow">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
-          </div>
-        </div>
-      </div>
-	   </div>-->
-  </div>
-</section>
-<!--Service-->
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
 
 
 
-
-<!-- Portfolio -->
-<section id="Portfolio" class="content"> 
-  
-  <!-- Container -->
-  <div class="container portfolio_title"> 
-    
-    <!-- Title -->
-    <div class="section-title">
-      <h2>Portfolio</h2>
-    </div>
-    <!--/Title --> 
-    
-  </div>
-  <!-- Container -->
-  
-  <div class="portfolio-top"></div>
-  
-  <!-- Portfolio Filters -->
-  <div class="portfolio"> 
-    
-    <div id="filters" class="sixteen columns">
-      <ul class="clearfix">
-        <li><a id="all" href="#" data-filter="*" class="active">
-          <h5>All</h5>
-          </a></li>
-        <li><a class="" href="#" data-filter=".prototype">
-          <h5>financeiro</h5>
-          </a></li>
-        <li><a class="" href="#" data-filter=".design">
-          <h5>Em Breve</h5>
-          </a></li>
-        <li><a class="" href="#" data-filter=".android">
-          <h5>Em Breve</h5>
-          </a></li>
-        <li><a class="" href="#" data-filter=".appleIOS">
-          <h5>Em Breve</h5>
-          </a></li>
-        <li><a class="" href="#" data-filter=".web">
-          <h5>Em Breve</h5>
-          </a></li>
-      </ul>
-    </div>
-    <!--/Portfolio Filters --> 
-    
-    <!-- Portfolio Wrapper -->
-    <div class="isotope fadeInLeft animated wow" style="position: relative; overflow: hidden; height: 480px;" id="portfolio_wrapper"> 
-      
-      <!-- Portfolio Item -->
-      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four   prototype isotope-item">
-        <div class="portfolio_img"> <img src="img/contas-a-pagar-e-receber.jpg"  alt="Portfolio 1"> </div>        
-        <div class="item_overlay">
-          <div class="item_info"> 
-            <h4 class="project_name">Gestão das Contas a Pagar</h4>
-          </div>
-        </div>
-        </div>
-      <!--/Portfolio Item --> 
-      
-      <!-- Portfolio Item-->
-      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(337px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  prototype isotope-item">
-        <div class="portfolio_img"> <img src="img/contas-a-pagar-e-receber.jpg" alt="Portfolio 1"> </div>
-        <div class="item_overlay">
-          <div class="item_info"> 
-            <h4 class="project_name">Gestão das Contas a Receber</h4>
-          </div>
-        </div>
-      </div>
-      <!--/Portfolio Item --> 
-      
-      <!-- Portfolio Item -->
-      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(674px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  design  isotope-item">
-        <div class="portfolio_img"> <img src="img/Gray.jpg" alt="Portfolio 1"> </div>
-        <div class="item_overlay">
-          <div class="item_info"> 
-            <h4 class="project_name">Em Breve</h4>
-          </div>
-        </div>
-      </div>
-      <!--/Portfolio Item--> 
-      
-      <!-- Portfolio Item-->
-      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  design isotope-item">
-        <div class="portfolio_img"> <img src="img/Gray.jpg" alt="Portfolio 1"> </div>
-        <div class="item_overlay">
-          <div class="item_info"> 
-            <h4 class="project_name">Em Breve</h4>
-          </div>
-        </div>
-      </div>
-      <!-- Portfolio Item --> 
-      
-      <!-- Portfolio Item -->
-      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  design isotope-item">
-        <div class="portfolio_img"> <img src="img/Gray.jpg" alt="Portfolio 1"> </div>
-        <div class="item_overlay">
-          <div class="item_info"> 
-            <h4 class="project_name">Em Breve</h4>
-          </div>
-        </div>
-      </div>
-      <!--/Portfolio Item --> 
-      
-      <!-- Portfolio Item -->
-      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(337px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  web isotope-item">
-        <div class="portfolio_img"> <img src="img/Gray.jpg" alt="Portfolio 1"> </div>
-        <div class="item_overlay">
-          <div class="item_info"> 
-            <h4 class="project_name">Em Breve</h4>
-          </div>
-        </div>
-      </div>
-      <!--/Portfolio Item --> 
-      
-      <!-- Portfolio Item  -->
-      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(674px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  design web isotope-item">
-        <div class="portfolio_img"> <img src="img/Gray.jpg" alt="Portfolio 1"> </div>       
-        <div class="item_overlay">
-          <div class="item_info"> 
-            <h4 class="project_name">Em Breve</h4>
-          </div>
-        </div>
-       </div>
-      <!--/Portfolio Item --> 
-      
-      <!-- Portfolio Item -->
-      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four   android isotope-item">
-        <div class="portfolio_img"> <img src="img/Gray.jpg" alt="Portfolio 1"> </div>       
-        <div class="item_overlay">
-          <div class="item_info"> 
-				<h4 class="project_name">Em Breve</h4>
-          </div>
-        </div>
-        </a> </div>
-      <!--/Portfolio Item --> 
-      
-    </div>
-    <!--/Portfolio Wrapper --> 
-    
-  </div>
-  <!--/Portfolio Filters -->
-  
-  <div class="portfolio_btm"></div>
-  
-  
-  <div id="project_container">
-    <div class="clear"></div>
-    <div id="project_data"></div>
-  </div>
- 
-  
-</section>
-<!--/Portfolio --> 
-
-<section class="page_section" id="clients"><!--page_section-->
-  <h2><!--Android--></h2>
-<!--page_section-->
-<div class="client_logos"><!--client_logos-->
-  <div class="container">
-    <ul class="fadeInRight animated wow">
-      <li><a href="javascript:void(0)"><!--<img src="img/client_logo1.png" alt="">--></a></li>
-      <li><a href="javascript:void(0)"><!--<img src="img/client_logo1.png" alt="">--></a></li>
-      <li><a href="javascript:void(0)"><!--<img src="img/client_logo1.png" alt="">--></a></li>
-      <li><a href="javascript:void(0)"><!--<img src="img/client_logo1.png" alt="">--></a></li>
-    </ul>
-  </div>
-</div>
-</section>
-<!--client_logos-->
-
-<section class="page_section team" id="team"><!--main-section team-start-->
-  <div class="container">
-    <h2><!--Android--></h2>
-    <h6><!--Android--></h6>
-
-<div class="member-area">
-					<div class="row">
-						<div class="col-md-6">
-							<div class="member wow bounceInUp animated">
-								<div class="member-container" data-wow-delay=".1s">
-									<div class="inner-container">
-										<div class="author-avatar">									
-											<!--<img src="img/client_logo1.png" alt="">-->
-										</div><!-- /.author-avatar -->
-
-										<div class="member-details">
-											<div class="member-top">									
-												<h4 class="name">
-													<!--Android-->
-												</h4>
-												<span class="designation">
-													<!--Android-->
-												</span>
-											</div><!-- /.member-top -->
-
-											<p>
-												<!--<img src="img/client_logo1.png" alt="">-->
-											</p>
-											<div class="member-social-link">
-												<!--<a href="#" class="twitter-btn"><i class="fa fa-twitter"></i></a>
-												<a href="#" class="facebook-btn"><i class="fa fa-facebook"></i></a>
-												<a href="#" class="dribbble-btn"><i class="fa fa-dribbble"></i></a>
-												<a href="#" class="linkedin-btn"><i class="fa fa-linkedin"></i></a>-->
-											</div><!-- /.member-social-link -->
-										</div><!-- /.member-details -->
-									</div><!-- /.inner-container -->
-								</div><!-- /.member-container -->
-							</div><!-- /.member -->
-						</div>
-
-						<div class="col-md-6">
-							<div class="member wow bounceInUp animated">
-								<div class="member-container" data-wow-delay=".3s">
-									<div class="inner-container">
-										<div class="author-avatar">									
-											<!--<img src="img/client_logo1.png" alt="">-->
-										</div><!-- /.author-avatar -->
-										<div class="member-details">
-											<div class="member-top">									
-												<h4 class="name">
-													<!--Android-->
-												</h4>
-												<span class="designation">
-													<!--Android-->
-												</span>
-											</div><!-- /.member-top -->
-											<p>
-												<!--<img src="img/client_logo1.png" alt="">-->
-											</p>
-											<div class="member-social-link">
-												<!--<a href="#" class="twitter-btn"><i class="fa fa-twitter"></i></a>
-												<a href="#" class="facebook-btn"><i class="fa fa-facebook"></i></a>
-												<a href="#" class="dribbble-btn"><i class="fa fa-dribbble"></i></a>
-												<a href="#" class="linkedin-btn"><i class="fa fa-linkedin"></i></a>-->
-											</div><!-- /.member-social-link -->
-										</div><!-- /.member-details -->
-									</div><!-- /.inner-container -->
-								</div><!-- /.member-container -->
-							</div><!-- /.member -->
-						</div>
-				
-
-</div>
-</section>
-<!--/Team-->
-<!--Footer-->
-<footer class="footer_wrapper" id="contact">
-  <div class="container">
-    <div class="footer_bottom"><span>Copyright © 2014,    Template by <a href="http://webthemez.com">WebThemez.com</a>. </span> </div>
-  </div>
-</footer>
-
-<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/jquery-scrolltofixed.js"></script>
-<script type="text/javascript" src="js/jquery.nav.js"></script> 
-<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
-<script type="text/javascript" src="js/jquery.isotope.js"></script>
-<script type="text/javascript" src="js/wow.js"></script> 
-<script type="text/javascript" src="js/custom.js"></script>
-
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
 </html>
